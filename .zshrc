@@ -60,7 +60,6 @@ function subir() {
 function bajar() {
     git pull origin "$(git branch --show-current)"
 }
-
 # GIT ALIASES ===
 
 # LINUX UTILS
