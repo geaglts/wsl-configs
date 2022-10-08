@@ -23,6 +23,10 @@ alias paste="powershell.exe -command 'Get-Clipboard' | sed -e 's/\r\n$//g'"
 alias aqui="pwd | clip.exe"
 alias toi="cd $(powershell.exe /c Get-Clipboard)"
 
+# === PNPM ALIASES
+alias al=pnpm
+# PNPM ALIASES ===
+
 alias t=touch
 alias vim=nvim
 alias vimconfig='nvim ~/.config/nvim/init.vim'
